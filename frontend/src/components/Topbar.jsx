@@ -20,7 +20,7 @@ const Topbar = () => {
 
     return (
         <div className="topbar">
-            <div className="topbar-title">BusID<span style={{ color: 'var(--primary)' }}>+</span> Portal</div>
+            <div className="topbar-title">BusID<span style={{ color: 'var(--primary)' }}></span></div>
             <div className="topbar-actions">
                 <div className="icon-btn" style={{ 
                     position: 'relative', border: '1px solid var(--border)', background: 'white',

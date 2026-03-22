@@ -25,13 +25,13 @@ const Landing = () => {
                         </svg>
                     </div>
                 </div>
-                <p className="college-name">GOVERNMENT ENGINEERING COLLEGE · THRISSUR</p>
+                <p className="college-name">GOVERNMENT ENGINEERING COLLEGE IDUKKI</p>
             </header>
 
             <main className="landing-main">
-                <h1 className="landing-title">BusID – Digital College Bus Pass</h1>
+                <h1 className="landing-title">BusID - Digital College Bus Pass</h1>
                 <p className="landing-subtitle">
-                    A seamless, paperless bus pass management system for students and administrators.
+                    A seamless, paperless bus pass management system for students and administraors.
                 </p>
 
                 <div className="portal-cards">
