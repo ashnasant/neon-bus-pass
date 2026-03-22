@@ -44,6 +44,7 @@ CREATE TABLE IF NOT EXISTS applications (
     remarks TEXT,
     semester VARCHAR(10) NOT NULL,
     phone VARCHAR(15) NOT NULL,
+    photo_url VARCHAR(255) NULL,
     FOREIGN KEY (student_id) REFERENCES users(id),
     FOREIGN KEY (route_id) REFERENCES routes(id)
 );
@@ -61,6 +62,7 @@ CREATE TABLE IF NOT EXISTS passes (
     valid_from DATE NOT NULL,
     valid_to DATE NOT NULL,
     status ENUM('active', 'expired', 'cancelled') DEFAULT 'active',
+    photo_url VARCHAR(255) NULL,
     verify_count INT DEFAULT 0,
     trips_remaining INT DEFAULT 60,
     FOREIGN KEY (app_id) REFERENCES applications(id),
