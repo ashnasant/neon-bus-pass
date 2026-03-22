@@ -56,8 +56,8 @@ app.post('/api/auth/login', async (req, res) => {
     const { email, password, role } = req.body;
 
     // Handle Static Admin Login
-    const ADMIN_EMAIL = 'www.nithinnibin@gmail.com';
-    const ADMIN_PASS = 'nithin@2005';
+    const ADMIN_EMAIL = 'nico@gmail.com';
+    const ADMIN_PASS = '1234';
 
     if (email === ADMIN_EMAIL && password === ADMIN_PASS) {
         if (role && role !== 'admin') {
