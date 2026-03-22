@@ -79,8 +79,8 @@ const Passes = () => {
                                 </div>
 
                                 <div style={{ marginTop: '20px', textAlign: 'center', borderTop: '1px dashed #e2e8f0', paddingTop: '15px' }}>
-                                    <div style={{ fontFamily: '"Brush Script MT", cursive', fontSize: '24px', color: '#0d3270' }}>Nithin N</div>
-                                    <div style={{ fontSize: '10px', color: 'var(--text-muted)', fontWeight: '700', letterSpacing: '1px' }}>ADMINISTRATIVE SIGNATURE</div>
+                                    <div style={{ fontFamily: '"Brush Script MT", cursive', fontSize: '24px', color: '#0d3270' }}></div>
+                                    <div style={{ fontSize: '10px', color: 'var(--text-muted)', fontWeight: '700', letterSpacing: '1px' }}></div>
                                 </div>
                             </div>
                             <div style={{ background: '#28a745', height: '10px' }}></div>
